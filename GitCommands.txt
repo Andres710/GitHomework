@@ -1,0 +1,5 @@
+git checkout feature1
+git merge Develop
+git checkout Develop
+git reset --hard HEAD~3 # Go back 3 commits. You *will* lose uncommitted work.
+git checkout feature1
